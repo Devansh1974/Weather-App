@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/assets/image copy.png" type="image/x-icon">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Weather</h1>
+        <button id="themeToggle" class="text-white">
+        🌙
+      </button>
+
+        <!-- Search Box -->
+        <div class="search-box">
+            <input type="text" id="cityInput" placeholder="Enter city name">
+            <button id="searchBtn">Search</button>
+            <button id="locationBtn">Use Current Location</button>
+        </div>
+
+        <!-- Spinner -->
+        <div id="spinner" class="spinner hidden">
+            <img src="https://i.gifer.com/4V0V.gif" alt="Loading...">
+        </div>
+
+        <!-- Weather Info -->
+        <div id="weatherResult" class="hidden">
+            <h2 id="cityName"></h2>
+            <p id="temperature"></p>
+            <p id="description"></p>
+            <p id="feelsLike"></p>
+            <p id="humidity"></p>
+            <p id="windSpeed"></p>
+            <img id="weatherIcon" src="" alt="Weather Icon">
+            <p id="sunrise"></p>
+            <p id="sunset"></p>
+        </div>
+
+        <!-- 5-Day Forecast -->
+        <div id="forecast" class="hidden">
+            <h3>5-Day Forecast</h3>
+            <div id="forecastContainer"></div>
+        </div>
+
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
