@@ -2,6 +2,10 @@
 
 WeatherX is a simple yet powerful weather application that allows users to fetch real-time weather information for any city or their current location. Built with HTML, CSS, and JavaScript, this application uses the OpenWeatherMap API to fetch weather data and display it in a clean and user-friendly interface.
 
+### Home Screen (With Search Bar and Navbar)
+
+![Home Screen](</assets/Screenshot 2025-02-10 at 13.37.44.png>)
+
 ## Features
 
 - **Search Weather by City**: Users can enter a city name to fetch its weather data.
@@ -58,13 +62,9 @@ Follow these steps to get the app up and running on your local machine:
 
 ## Screenshots
 
-### Home Screen (With Search Bar and Navbar)
-
-![Home Screen](<Screenshot 2025-02-10 at 13.37.44.png>)
-
 ### 5-Day Forecast
 
-![5-day Forecast](<Screenshot 2025-02-10 at 13.38.36.png>)
+![5-day Forecast](</assets/Screenshot 2025-02-10 at 13.38.36.png>)
 
 ## Future Improvements
 
