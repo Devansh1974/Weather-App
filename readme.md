@@ -1,4 +1,4 @@
-# WeatherX - Weather App
+# Weather App
 
 WeatherX is a simple yet powerful weather application that allows users to fetch real-time weather information for any city or their current location. Built with HTML, CSS, and JavaScript, this application uses the OpenWeatherMap API to fetch weather data and display it in a clean and user-friendly interface.
 
